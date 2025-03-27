@@ -21,13 +21,7 @@ Required Files
 Create these files before running the script:
 
 goblin.txt (Goblin Template):
-text
 
-Collapse
-
-Wrap
-
-Copy
 Name: Goblin
 Strength: 8
 Dexterity: 14
@@ -38,11 +32,6 @@ Defines the base stats for each spawned goblin.
 modifier.txt (Modifier Table):
 text
 
-Collapse
-
-Wrap
-
-Copy
 1:-5
 2-3:-4
 4-5:-3
@@ -59,33 +48,18 @@ Installation
 Clone the repository:
 bash
 
-Collapse
-
-Wrap
-
-Copy
 git clone https://github.com/yourusername/goblin-meat-grinder.git
 cd goblin-meat-grinder
 Ensure goblin.txt and modifier.txt are in the directory (see above).
 Make the script executable:
 bash
 
-Collapse
-
-Wrap
-
-Copy
 chmod +x goblin_meat_grinder.sh
 Usage
 Run the script:
 
 bash
 
-Collapse
-
-Wrap
-
-Copy
 ./goblin_meat_grinder.sh
 How to Play
 Enter your character’s name when prompted.
